@@ -57,7 +57,7 @@ export default function FooterComponent() {
                         </div>
                     </article>
                 </main>
-                <div ref={el => {LowerFooterAnimation = el}} className="flex justify-between items-center w-full py-20 text-black font-light md:text-sm text-xs">
+                <div ref={el => {LowerFooterAnimation = el}} className="flex flex-col md:flex-row gap-y-1.5 md:gap-y-0 justify-between items-center w-full py-20 text-black font-light md:text-sm text-xs">
                     <p>Copyright © {year}</p>
                     <div className="flex justify-center gap-x-4 items-center">
                         <p>Terms & Condition</p>
