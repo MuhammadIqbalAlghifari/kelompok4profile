@@ -20,8 +20,8 @@ export default function HeroComponent() {
         <section className="w-full h-full">
             <img src="/landing-image.png" className="w-full lg:h-auto h-screen absolute object-cover -z-50"/>
             <main className="flex flex-col justify-center items-center">
-                <div className="flex flex-col justify-center items-center px-5 md:-mt-0 -mt-20 h-screen">
-                    <article className="flex flex-col justify-center items-center lg:gap-y-6 md:gap-y-4 gap-y-2.5">
+                <div className="flex flex-col justify-center items-center px-5 h-screen">
+                    <article className="flex flex-col justify-center items-center lg:gap-y-6 sm:-mt-0 -mt-28 md:gap-y-4 gap-y-2.5">
                         <h1 ref={el => {TittleAnimation = el}} className="text-white max-w-4xl lg:text-[4.21rem] md:text-5xl text-3xl font-semibold lg:leading-normal md:leading-normal leading-normal text-center">Make Your Interior More Minimalistic & Modern</h1>
                         <p ref={el => {ParagraphAnimation = el}} className="text-gray-300 max-w-md lg:text-base md:text-sm text-xs text-center">Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
                         <div ref={el => {InputAnimation = el}} className="bg-gray-300 backdrop-blur-sm flex justify-center items-center bg-opacity-25 md:p-2 p-0.5 rounded-full">

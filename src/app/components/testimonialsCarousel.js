@@ -55,10 +55,10 @@ export default function TestimonialsCarouselComponent() {
                 <aside className="flex w-full md:w-auto flex-col justify-end h-full relative">
                     <img src="/bg-testimonials-upin.png" className="w-full relative z-10 h-full shadow-2xl"/>
                         <article className="absolute z-20 flex flex-col h-full justify-end w-full items-center p-5">
-                            <div className="bg-white w-full rounded-xl py-4 px-8 h-1/2 flex flex-col justify-start gap-y-4 items-center">
+                            <div className="bg-white w-full rounded-xl py-4 md::px-8 px-4 h-1/2 flex flex-col justify-start sm:gap-y-4 gap-y-2 items-center">
                                 <img src="/bang-upin.png" className="w-14 h-14 -mt-11 object-cover bg-white p-1.5 rounded-t-full"/>
                                 <div className="flex flex-col gap-y-1 justify-start items-center">
-                                    <h1 className="text-lg font-semibold text-black">Bang Upin</h1>
+                                    <h1 className="md:text-lg text-base font-semibold text-black">Bang Upin</h1>
                                     <h1 className="text-xs text-black font-extralight">Pedangan Asongan</h1>
                                 </div>
                                 <div className="w-full h-full flex flex-col md:justify-between justify-center gap-y-2 md:gap-y-0 items-center">
