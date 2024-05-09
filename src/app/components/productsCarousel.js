@@ -59,7 +59,7 @@ export default function ChairProducts() {
                     <div className="flex flex-col bg-white p-5 justify-center rounded-b-2xl w-full h-full items-start gap-6">
                         <div className="flex flex-col justify-center items-start gap-1">
                             <h2 className="text-sm text-gray-500 font-light">Chair</h2>
-                            <h1 className="text-base font-semibold">Sakarias Armchair</h1>
+                            <h1 className="text-base font-semibold text-black">Sakarias Armchair</h1>
                             <div className="flex justify-center gap-1 items-center">
                                 <FaStar className="w-4 h-4 text-orange-300"/>
                                 <FaStar className="w-4 h-4 text-orange-300"/>
@@ -70,8 +70,8 @@ export default function ChairProducts() {
                         </div>
                         <div className="flex justify-between items-center w-full">
                             <div className="flex justify-start items-start">
-                                <p className="text-xs">$</p>
-                                <p className="text-base">392</p>
+                                <p className="text-xs text-black">$</p>
+                                <p className="text-base text-black">392</p>
                             </div>
                             <FaPlus className="w-10 h-10 p-2.5 text-white bg-gray-900 rounded-full cursor-pointer"/>
                         </div>
@@ -84,7 +84,7 @@ export default function ChairProducts() {
                     <div className="flex flex-col bg-white p-5 justify-center rounded-b-2xl w-full h-full items-start gap-6">
                         <div className="flex flex-col justify-center items-start gap-1">
                             <h2 className="text-sm text-gray-500 font-light">Chair</h2>
-                            <h1 className="text-base font-semibold">Baltsar Chair</h1>
+                            <h1 className="text-base font-semibold text-black">Baltsar Chair</h1>
                             <div className="flex justify-center gap-1 items-center">
                                 <FaStar className="w-4 h-4 text-orange-300"/>
                                 <FaStar className="w-4 h-4 text-orange-300"/>
@@ -95,8 +95,8 @@ export default function ChairProducts() {
                         </div>
                         <div className="md:flex hidden justify-between items-center w-full">
                             <div className="flex justify-start items-start">
-                                <p className="text-xs">$</p>
-                                <p className="text-base">299</p>
+                                <p className="text-xs text-black">$</p>
+                                <p className="text-base text-black">299</p>
                             </div>
                             <FaPlus className="w-10 h-10 p-2.5 text-white bg-gray-900 rounded-full cursor-pointer"/>
                         </div>
@@ -109,7 +109,7 @@ export default function ChairProducts() {
                     <div className="flex flex-col bg-white p-5 justify-center rounded-b-2xl w-full h-full items-start gap-6">
                         <div className="flex flex-col justify-center items-start gap-1">
                             <h2 className="text-sm text-gray-500 font-light">Chair</h2>
-                            <h1 className="text-base font-semibold">Anjay Chair</h1>
+                            <h1 className="text-base font-semibold text-black">Anjay Chair</h1>
                             <div className="flex justify-center gap-1 items-center">
                                 <FaStar className="w-4 h-4 text-orange-300"/>
                                 <FaStar className="w-4 h-4 text-orange-300"/>
@@ -120,8 +120,8 @@ export default function ChairProducts() {
                         </div>
                         <div className="flex justify-between items-center w-full">
                             <div className="flex justify-start items-start">
-                                <p className="text-xs">$</p>
-                                <p className="text-base">512</p>
+                                <p className="text-xs text-black">$</p>
+                                <p className="text-base text-black">512</p>
                             </div>
                             <FaPlus className="w-10 h-10 p-2.5 text-white bg-gray-900 rounded-full cursor-pointer"/>
                         </div>
@@ -134,7 +134,7 @@ export default function ChairProducts() {
                     <div className="flex flex-col bg-white p-5 justify-center rounded-b-2xl w-full h-full items-start gap-6">
                         <div className="flex flex-col justify-center items-start gap-1">
                             <h2 className="text-sm text-gray-500 font-light">Chair</h2>
-                            <h1 className="text-base font-semibold">Nyantui Chair</h1>
+                            <h1 className="text-base font-semibold text-black">Nyantui Chair</h1>
                             <div className="flex justify-center gap-1 items-center">
                                 <FaStar className="w-4 h-4 text-orange-300"/>
                                 <FaStar className="w-4 h-4 text-orange-300"/>
@@ -145,8 +145,8 @@ export default function ChairProducts() {
                         </div>
                         <div className="flex justify-between items-center w-full">
                             <div className="flex justify-start items-start">
-                                <p className="text-xs">$</p>
-                                <p className="text-base">921</p>
+                                <p className="text-xs text-black">$</p>
+                                <p className="text-base text-black">921</p>
                             </div>
                             <FaPlus className="w-10 h-10 p-2.5 text-white bg-gray-900 rounded-full cursor-pointer"/>
                         </div>

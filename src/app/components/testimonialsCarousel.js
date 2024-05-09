@@ -106,7 +106,7 @@ export default function TestimonialsCarouselComponent() {
                                     <h1 className="text-xs text-black font-extralight">Karyawan Swasta</h1>
                                 </div>
                                 <div className="w-full h-full flex flex-col justify-between items-center">
-                                    <p className="text-center text-sm font-light">"Sangat terjangkau untuk kantong saya yang tidak terlalu banyak"</p>
+                                    <p className="text-center text-black text-sm font-light">"Sangat terjangkau untuk kantong saya yang tidak terlalu banyak"</p>
                                     <div className="flex justify-center gap-x-2 items-center">
                                         <FaStar className="w-3 h-3 text-orange-500"/>
                                         <FaStar className="w-3 h-3 text-orange-500"/>

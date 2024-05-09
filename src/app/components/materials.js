@@ -50,7 +50,7 @@ export default function MaterialsComponent() {
             <article ref={ArticleAnimation} className="flex flex-col justify-center md:max-w-xl max-w-md lg:items-start items-center gap-y-4 lg:pl-20">
                 <p className="lg:text-lg md:text-base text-sm text-orange-500 tracking-widest">MATERIALS</p>
                 <h1 className="text-black font-bold lg:text-4xl md:text-3xl text-2xl text-center lg:text-start leading-tight">Very Serious <br className="hidden lg:block"/> Materials For Making Furniture</h1>
-                <p className="font-light md:text-sm text-xs text-center lg:text-start lg:leading-6 leading-5">Because panto was very serious about designing furniture for our enviroment, using a very expensive and famous capital but at a relatively low price</p>
+                <p className="font-light md:text-sm text-xs text-center lg:text-start text-black lg:leading-6 leading-5">Because panto was very serious about designing furniture for our enviroment, using a very expensive and famous capital but at a relatively low price</p>
                 <div className="text-orange-500 text-xs flex justify-start items-center gap-2 group cursor-pointer">
                     <p>More Info</p>
                     <FaArrowRightLong className="w-10 h-4 group-hover:translate-x-2 transition duration-200"/>

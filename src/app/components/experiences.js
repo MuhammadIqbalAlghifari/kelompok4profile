@@ -60,7 +60,7 @@ export default function ExperienceComponent() {
                 <article ref={ArticleAnimation} className="flex max-w-md flex-col gap-y-4 -mt-10 justify-start h-full lg:items-start items-center">
                     <p className="lg:text-lg md:text-base text-sm text-orange-500 tracking-widest">EXPERIENCES</p>
                     <h1 className="text-black font-bold lg:text-4xl md:text-3xl text-2xl text-center lg:text-start leading-tight">We Provide You The Best Experience</h1>
-                    <p className="font-light md:text-sm text-xs text-center lg:text-start lg:leading-6 leading-5">You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials</p>
+                    <p className="font-light md:text-sm text-xs text-center lg:text-start lg:leading-6 leading-5 text-black">You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and luxurious style and with premium quality materials</p>
                     <div className="text-orange-500 text-xs flex justify-start items-center gap-2 group cursor-pointer">
                         <p>More Info</p>
                         <FaArrowRightLong className="w-10 h-4 group-hover:translate-x-2 transition duration-200"/>
