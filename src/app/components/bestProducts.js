@@ -42,7 +42,7 @@ export default function BestSellingProductComponent() {
     }, [])
 
     return (
-        <section className="bg-[#f5f5f5] p-20 lg:gap-y-10 md:gap-y-8 gap-y-6 flex flex-col justify-center items-center">
+        <section className="bg-[#f5f5f5] py-16 px-8 lg:p-20 lg:gap-y-10 md:gap-y-8 gap-y-6 flex flex-col justify-center items-center">
             <h1 ref={el => {TittleAnimation = el}} className="lg:text-4xl md:text-3xl text-2xl text-black text-center font-bold">Best Selling Product</h1>
             <div ref={el => {TabAnimation = el}} className="flex justify-center gap-x-2 items-center rounded-full bg-gray-300 p-1 lg:text-base md:text-sm text-xs font-light">
                 <p className="bg-white px-4 py-2 cursor-pointer rounded-full">Chair</p>

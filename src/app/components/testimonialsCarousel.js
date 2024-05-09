@@ -46,13 +46,13 @@ export default function TestimonialsCarouselComponent() {
     }, [])
 
     return (
-        <div className="mt-14 w-full relative flex flex-col justify-center">
+        <div className="mt-14 w-full relative h-full flex flex-col justify-center">
             <div ref={el => {ArrowAnimation}} className="flex justify-between w-full absolute z-30 items-center -mt-10">
                 <FaArrowLeftLong className="bg-white w-10 h-10 p-3 rounded-full -ml-5 cursor-pointer shadow-md"/>
                 <FaArrowRightLong className="bg-white w-10 h-10 p-3 rounded-full -mr-5 cursor-pointer shadow-md"/>
             </div>
-            <main ref={ItemAnimation} className="flex justify-between relative items-center w-full">
-                <aside className="flex w-full md:w-auto flex-col justify-end relative">
+            <main ref={ItemAnimation} className="flex h-full justify-between relative items-center w-full">
+                <aside className="flex w-full md:w-auto flex-col justify-end h-full relative">
                     <img src="/bg-testimonials-upin.png" className="w-full relative z-10 h-full shadow-2xl"/>
                         <article className="absolute z-20 flex flex-col h-full justify-end w-full items-center p-5">
                             <div className="bg-white w-full rounded-xl py-4 px-8 h-1/2 flex flex-col justify-start gap-y-4 items-center">
@@ -74,7 +74,7 @@ export default function TestimonialsCarouselComponent() {
                             </div>
                         </article>
                 </aside>
-                <aside className="md:flex hidden flex-col justify-end relative">
+                <aside className="md:flex hidden flex-col justify-end h-full relative">
                     <img src="/bg-testimonials-sukijan.png" className="w-full relative z-10 h-full shadow-2xl"/>
                         <article className="absolute z-20 flex flex-col h-full justify-end w-full items-center p-5">
                             <div className="bg-white w-full rounded-xl py-4 px-8 h-1/2 flex flex-col justify-start gap-y-4 items-center">
