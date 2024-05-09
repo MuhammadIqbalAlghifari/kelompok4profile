@@ -38,8 +38,8 @@ export default function ExperienceComponent() {
         }
 
         const animateOnMobile = () => {
-            animateOnScroll(ImageAnimation, {opacity: 0, x: -100})
-            animateOnScroll(ImageBlurAnimation, {opacity: 0, x: -100})
+            animateOnScroll(ImageAnimation, {opacity: 0, y: 50})
+            animateOnScroll(ImageBlurAnimation, {opacity: 0, y: 50})
             animateOnScroll(CubeVerticalAnimation, {opacity: 0, x: -100})
             animateOnScroll(CubeHorizontalAnimation, {opacity: 0, x: -100})
             animateOnScroll(ArticleAnimation.current.children, {opacity: 0})
