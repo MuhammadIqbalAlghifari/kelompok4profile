@@ -1,5 +1,5 @@
 {
-  "name": "panto-fixed",
+  "name": "panto",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.1.9",
+    "gsap": "^3.12.5",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-icons": "^5.2.0"
   },
   "devDependencies": {
     "postcss": "^8",
