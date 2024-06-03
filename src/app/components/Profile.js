@@ -59,7 +59,7 @@ export default function OurProfile() {
                             <h1 className="text-lg text-center font-semibold">Nur Latifah</h1>
                             <h1 className="text-lg text-center font-semibold">C2283207035</h1>
                         </div>
-                        <p className="text-center text-sm leading-relaxed">Lahir pada 15 Mei 2004 di Tasikmalaya, Jawa barat. Saat ini menjadi mahasiswa aktif di Universitas Muhammadiyah Tasikmalaya, Semester 4 di prodi Pendidikan Teknologi Informasi yang beralamat di Kp. Sukasenang, Desa Sukahening</p>
+                        <p className="text-center text-sm leading-relaxed">Lahir pada 15 Mei 2004 di Tasikmalaya, Jawa barat. Saat ini menjadi mahasiswa aktif di Universitas Muhammadiyah Tasikmalaya, Semester 4 di prodi Pendidikan Teknologi Informasi yang beralamat di Jl. Letjend Ibrahim Adjie</p>
                             <Link href="https://instagram.com/nrltfhnl" rel="noopener noreferrer" target="_blank"><FaInstagram className="md:w-10 md:h-10 w-7 h-7 text-black"/></Link>
                     </article>
                 </main>
