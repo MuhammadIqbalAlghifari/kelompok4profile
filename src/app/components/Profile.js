@@ -6,7 +6,7 @@ export default function OurProfile() {
         <section id="about" className="flex bg-white flex-col w-full justify-center items-center gap-y-1.5 md:gap-y-6 p-10">
             <h1 className="md:text-4xl font-bold text-2xl text-center py-5">Our Profile</h1>
             <div className="grid md:grid-cols-3 grid-cols-1 gap-3">
-                <main id="iqbal" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="iqbal" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/iqbal.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">
@@ -17,7 +17,7 @@ export default function OurProfile() {
                             <Link href="https://instagram.com/iqbaalgifari" rel="noopener noreferrer" target="_blank"><FaInstagram className="md:w-10 md:h-10 w-7 h-7 text-black"/></Link>
                     </article>
                 </main>
-                <main id="rachel" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="rachel" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/rachel.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">
@@ -28,7 +28,7 @@ export default function OurProfile() {
                             <Link href="https://instagram.com/rachel_abdusalam" rel="noopener noreferrer" target="_blank"><FaInstagram className="md:w-10 md:h-10 w-7 h-7 text-black"/></Link>
                     </article>
                 </main>
-                <main id="ikhsan" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="ikhsan" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/ikhsan.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">
@@ -41,7 +41,7 @@ export default function OurProfile() {
                 </main>
             </div>
             <div className="grid md:grid-cols-4 grid-cols-1 gap-3">
-                <main id="novaria" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="novaria" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/novaria.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">
@@ -52,7 +52,7 @@ export default function OurProfile() {
                             <Link href="https://instagram.com/naviaac_" rel="noopener noreferrer" target="_blank"><FaInstagram className="md:w-10 md:h-10 w-7 h-7 text-black"/></Link>
                     </article>
                 </main>
-                <main id="nurlatifah" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="nurlatifah" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/nurlatifah.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">
@@ -63,7 +63,7 @@ export default function OurProfile() {
                             <Link href="https://instagram.com/nrltfhnl" rel="noopener noreferrer" target="_blank"><FaInstagram className="md:w-10 md:h-10 w-7 h-7 text-black"/></Link>
                     </article>
                 </main>
-                <main id="neni" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="neni" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/neni.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">
@@ -74,7 +74,7 @@ export default function OurProfile() {
                             <Link href="https://instagram.com/astrianine" rel="noopener noreferrer" target="_blank"><FaInstagram className="md:w-10 md:h-10 w-7 h-7 text-black"/></Link>
                     </article>
                 </main>
-                <main id="nita" className="flex bg-[#f5f5f5] flex-col overflow-hidden gap-y-3 rounded-xl shadow-lg">
+                <main id="nita" className="flex bg-[#f5f5f5] flex-col text-black overflow-hidden gap-y-3 rounded-xl shadow-lg">
                     <img src="/nita.jpeg" className="w-full object-cover object-center h-80"/>
                     <article className="flex p-6 flex-col justify-center items-center gap-y-1.5 md:gap-y-3">
                         <div className="flex flex-col justify-center items-center gap-y-0.5 md:gap-y-1.5">

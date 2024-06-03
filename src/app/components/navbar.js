@@ -3,7 +3,6 @@
 import { easeOut } from "framer-motion";
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
-import { FaBagShopping, FaChevronDown } from "react-icons/fa6";
 
 function MobileNav({open, setOpen}) {
     return (
@@ -55,7 +54,6 @@ export default function NavbarComponent() {
                     <a href="#home"><li className="cursor-pointer"> Home </li> </a> 
                     <a href="#about"><li className="cursor-pointer"> About Us </li> </a> 
                 </ul>
-                <FaBagShopping className="w-6 h-6 hidden md:flex cursor-pointer"/>
                 <div className="flex relative w-8 h-8 flex-col justify-between items-center md:hidden" onClick={() => {setOpen(!open)}}>
                     <span className={`h-1 w-full rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5 bg-black" : isScrolled ? "bg-black" : "bg-white"}`}/>
                     <span className={`h-1 w-full rounded-lg transform transition-all duration-300 ease-in-out ${open ? "w-0 h-0" : isScrolled ? "bg-black" : "w-full bg-white"}`}/>
